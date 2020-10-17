@@ -1,38 +1,34 @@
 - project :
-    print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal : True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url : https://kai-tub.github.io/master-thesis-blog/ # Full URL
-    image : "earth_small.jpg" # path: assets/project/
-    date : 2020/09 - Working
-    title : My master thesis blog 
-    summary: My remote sensing and self-supervision master thesis blog
-    description : >
-      My remote sensing and self-supervision master thesis blog. 
-      Learn how to work with multi-spectral satellite images, no prior knowledge required!
+  print : True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+  modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
+  url : https://kai-tub.github.io/master-thesis-blog/ # Full URL
+  image : "earth_small.jpg" # path: assets/project/
+  date : 2020/09 - Working
+  title : My master thesis blog 
+  description : |
+    My remote sensing and self-supervision master thesis blog. 
+    Learn how to work with and learn from multi-spectral satellite images, no prior knowledge required!
+  summary: <center><a href="https://kai-tub.github.io/master-thesis-blog/">Click here to view my blog</a></center>
 
 - project:
-    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/marketplace/actions/external-repo-wiki-sync-action # Full URL
-    image: "sync_action.png" # path: assets/project/
-    date: 2019/06 - Maintaining
-    title: External repo/wiki sync GitHub action
-    description: Keep your own repo clean and small! A GitHub action to push files/binaries to external repositories.
-    summary:  >
-      This repository provides a GitHub action to push files/binaries to external repositories. 
-      Per default, the action uses the wiki of the current repo, but you can specify other repos as well. 
-      This allows you to generate documentation/images/gifs in your CI pipeline and save these large binaries somewhere else, 
-      keeping your code repository clean and small!
-      
-      <a href="https://github.com/marketplace/actions/external-repo-wiki-sync-action">External repo/wiki sync action</a>
+  print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+  modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+  url: https://github.com/marketplace/actions/external-repo-wiki-sync-action # Full URL
+  image: "sync_action.png" # path: assets/project/
+  date: 2019/06 - Maintaining
+  title: External repo/wiki sync GitHub action
+  description: Keep your own repo clean and small! A GitHub action to push files/binaries to external repositories.
+  summary:  |
+    This action allows you to generate documentation/images/gifs in your CI pipeline and save these large files/binaries somewhere else.
+
+    <center><a href="https://github.com/marketplace/actions/external-repo-wiki-sync-action">External repo/wiki sync action</a></center>
 
 - project:
-    print: True
-    modal: True
-    url: https://github.com/kai-tub/latex-beamer-pure-minimalistic
-    image: "PureMinimalistic.png"
-    date: 2019/04 - Maintaining
-    title: Minimalistic LaTeX-Beamer theme
-    description: A presentation theme for LaTeX-Beamer that is truly minimalistic, so that the focus is on the presenter and not on the slides.
-    summary: A presentation theme for LaTeX-Beamer that is truly minimalistic, so that the focus is on the presenter and not on the slides.
-      # TODO: Add pictures from the GitHub project
+  print: True
+  modal: False
+  url: https://github.com/kai-tub/latex-beamer-pure-minimalistic
+  image: "pm_theme.jpg"
+  date: 2019/04 - Maintaining
+  title: PureMinimalistic LaTeX-Beamer theme
+  description: A presentation theme for LaTeX-Beamer that is truly minimalistic and is easy to use and configure.
+  summary: <center><a href="https://github.com/kai-tub/latex-beamer-pure-minimalistic">PureMinimalistic Beamer theme</a></center>
