@@ -1,0 +1,73 @@
+# Site Settings
+baseurl: ""
+url : "https://kai-tub.github.io"
+
+# Blog Settings
+theme_settings :
+  title : Kai Norman Clasen
+  favicon : assets/favicon.ico
+
+  # Profile Settings
+  profile :
+    image : assets/img/kai.png
+    username : Kai Norman Clasen
+    description : 
+    workexperience :
+      - start : 2020/04
+        end : 2020/07
+        experience : Novatec GmbH, Consultant Internship
+      - start: 2017/04
+        end: 2018/10
+        experience: TU Berlin, Student Assistant
+      - start: 2012
+        end: 2017
+        experience: Summerjob at a farm
+    education:
+      - start: 2018/10
+        end: Now
+        experience: Computer Engineering (M. Sc.), TU Berlin
+      - start: 2014/10
+        end: 2018/10
+        experience: Computer Engineering (B. Sc.), TU Berlin
+    skills : 
+      - skill: Python
+        value: 75  # Percent value
+      - skill: Golang
+        value: 30
+      - skill: Julia
+        value: 30
+      - skill: fastai/PyTorch
+        value: 40
+      - skill: Numpy
+        value: 75
+      - skill: Pandas
+        value: 40
+
+  # Icons
+  icons :
+    email:  # Full email address, e.g. "sample@google.com"
+    linkedin: https://www.linkedin.com/in/kai-norman-clasen/ # Full URL 
+    github: kai-tub
+    gitlab: 
+    bitbucket: 
+    google_plus:
+    twitter: kai_tub
+    youtube:
+    facebook:
+    instagram:
+
+  # Disqus
+  disqus_shortname :
+
+# Pagination
+paginate: 5
+paginate_path: "blog/page:num"
+
+# Build Ssttings
+sass:
+  sass_dir: _sass
+  style: :compressed
+plugins: 
+  - jekyll-paginate
+bootstrap:
+  assets: true
