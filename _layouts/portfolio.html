@@ -30,7 +30,8 @@ layout: page
       <ul class="exper-list">
         {% for wexp in  profile.workexperience %}
         <li class="meta">
-          <p class="date">{{ wexp.start }} - {{ wexp.end }}</p>
+          <!-- Fix for Safari browser disliking "wrong" dates -->
+          <i class="date">{{ wexp.start }}</i><i class="date"> - </i><i class="date">{{ wexp.end }}</i>
           <p class="description">{{ wexp.experience }}</p>
         </li>
         {% endfor %}
@@ -39,7 +40,7 @@ layout: page
       <ul class="exper-list">
         {% for eexp in  profile.education %}
         <li class="meta">
-          <p class="date">{{ eexp.start }} - {{ eexp.end }}</p>
+          <i class="date">{{ eexp.start }}</i><i class="date"> - </i><i class="date">{{ eexp.end }}</i>
           <p class="description">{{ eexp.experience }}</p>
         </li>
         {% endfor %}

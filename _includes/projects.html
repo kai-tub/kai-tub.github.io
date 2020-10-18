@@ -8,14 +8,30 @@
       <div class="card-wrapper">
         <div class="card">
           {% if project.image %}
+          {% if project.url %}
+          {% assign url = project.url %}
+          <a href="{{ url }}">
+            <div class="img-wrap">
+              <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
+            </div>
+          </a>
+          {% else %}
           <div class="img-wrap">
             <img src="{{ site.url }}/assets/project/{{ project.image }}" alt="">
           </div>
           {% endif %}
+          {% endif %}
           <div class="text-wrap {% if project.image %}{% endif %}">
             <div class="title-wrap">
               <p class="date">{{ project.date }}</p>
+              {% if project.url %}
+              {% assign url = project.url %}
+              <a href="{{ url }}">
+                <div class="title">{{ project.title }}</div>
+              </a>
+              {% else %}
               <div class="title">{{ project.title }}</div>
+              {% endif %}
             </div>
             <div class="meta">
               {% if project.skills %}
@@ -32,7 +48,7 @@
             {% assign url = project.url %}
             <!-- <a href="{{ url }}/subscription"><i class="far fa-eye"></i></a> -->
             <!-- <a href="{{ url }}"><i class="fas fa-star"></i></a> -->
-            <a href="{{ url }}"><i class="fas fa-globe"></i></a>
+            <!-- <a href="{{ url }}"><i class="fas fa-globe"></i></a> -->
             <!-- <a href="{{ url }}/fork"><i class="fas fa-code-branch"></i></a> -->
             {% endif %}
             {% if project.modal %}
