@@ -5,7 +5,7 @@ url : "https://kai-tub.github.io"
 # Blog Settings
 theme_settings :
   title : Kai Norman Clasen
-  favicon : assets/favicon.ico
+  favicon : assets/icon.png
 
   # Profile Settings
   profile :
