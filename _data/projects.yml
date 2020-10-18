@@ -3,7 +3,7 @@
     modal : False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url : https://kai-tub.github.io/master-thesis-blog/ # Full URL
     image : "earth_small.jpg" # path: assets/project/
-    date : 2020/09 - Working
+    date : Sep. 2020 - Working
     title : My master thesis blog 
     summary: 
     description : >
@@ -15,7 +15,7 @@
     modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://github.com/marketplace/actions/external-repo-wiki-sync-action # Full URL
     image: # path: assets/project/
-    date: 2019/06 - Maintaining
+    date: Jun. 2019 - Maintaining
     title: External repo/wiki sync GitHub action
     description: Keep your own repo clean and small! A GitHub action to push files/binaries to the wiki or an external repository.
     summary: 
@@ -25,7 +25,7 @@
     modal: False
     url: https://github.com/kai-tub/latex-beamer-pure-minimalistic
     image: "pm_theme.jpg"
-    date: 2019/04 - Maintaining
+    date: Apr. 2019 - Maintaining
     title: PureMinimalistic LaTeX-Beamer theme
     description: A presentation theme for LaTeX-Beamer that is truly minimalistic and easy to use/configure.
     summary:
