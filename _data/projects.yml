@@ -14,7 +14,7 @@
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
     url: https://github.com/marketplace/actions/external-repo-wiki-sync-action # Full URL
-    image: "sync_action.png" # path: assets/project/
+    image: # path: assets/project/
     date: 2019/06 - Maintaining
     title: External repo/wiki sync GitHub action
     description: Keep your own repo clean and small! A GitHub action to push files/binaries to the wiki or an external repository.
@@ -24,7 +24,7 @@
     print: True
     modal: False
     url: https://github.com/kai-tub/latex-beamer-pure-minimalistic
-    image: "pm_theme.png"
+    image: "pm_theme.jpg"
     date: 2019/04 - Maintaining
     title: PureMinimalistic LaTeX-Beamer theme
     description: A presentation theme for LaTeX-Beamer that is truly minimalistic and easy to use/configure.
