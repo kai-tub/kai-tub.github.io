@@ -11,6 +11,7 @@ theme_settings :
   profile :
     image : assets/img/kai.png
     username : Kai Norman Clasen
+    job: Computer Engineering Master Student
     description : 
     workexperience :
       - start : Apr. 2020
