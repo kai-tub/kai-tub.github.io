@@ -13,21 +13,21 @@ theme_settings :
     username : Kai Norman Clasen
     description : 
     workexperience :
-      - start : 2020/04
-        end : 2020/07
+      - start : 2020/04/15
+        end : 2020/07/14
         experience : Novatec GmbH, Consultant Internship
-      - start: 2017/04
-        end: 2018/10
+      - start: 2017/04/01
+        end: 2018/10/01
         experience: TU Berlin, Student Assistant
       - start: 2012
         end: 2017
         experience: Summerjob at a farm
     education:
-      - start: 2018/10
+      - start: 2018/10/01
         end: Now
         experience: Computer Engineering (M. Sc.), TU Berlin
-      - start: 2014/10
-        end: 2018/10
+      - start: 2014/10/01
+        end: 2018/09/30
         experience: Computer Engineering (B. Sc.), TU Berlin
     skills : 
       - skill: Python

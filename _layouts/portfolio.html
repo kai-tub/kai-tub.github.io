@@ -30,7 +30,7 @@ layout: page
       <ul class="exper-list">
         {% for wexp in  profile.workexperience %}
         <li class="meta">
-          <p class="date">{{ wexp.start }}-{{ wexp.end }}</p>
+          <p class="date">{{ wexp.start }} - {{ wexp.end }}</p>
           <p class="description">{{ wexp.experience }}</p>
         </li>
         {% endfor %}
@@ -39,7 +39,7 @@ layout: page
       <ul class="exper-list">
         {% for eexp in  profile.education %}
         <li class="meta">
-          <p class="date">{{ eexp.start }}-{{ eexp.end }}</p>
+          <p class="date">{{ eexp.start }} - {{ eexp.end }}</p>
           <p class="description">{{ eexp.experience }}</p>
         </li>
         {% endfor %}
